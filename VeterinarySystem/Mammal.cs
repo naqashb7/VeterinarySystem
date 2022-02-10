@@ -10,16 +10,12 @@ namespace VeterinarySystem
     {
 
 
+       
+        public Mammal(String Name, int Age, String Breed, double Weight) : base ( Name, Age, Breed, Weight) { 
 
-
-
-
-
-
-
-
-
-
+            
+}
+           
 
 
         public override void Breathe()

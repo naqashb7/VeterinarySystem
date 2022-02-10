@@ -1,0 +1,5 @@
+C:\Users\naqas\OneDrive\Documents\TSI\Csharp\VeterinarySystem\VeterinarySystem\obj\Debug\net6.0\VeterinarySystem.csproj.AssemblyReference.cache
+C:\Users\naqas\OneDrive\Documents\TSI\Csharp\VeterinarySystem\VeterinarySystem\obj\Debug\net6.0\VeterinarySystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\naqas\OneDrive\Documents\TSI\Csharp\VeterinarySystem\VeterinarySystem\obj\Debug\net6.0\VeterinarySystem.AssemblyInfoInputs.cache
+C:\Users\naqas\OneDrive\Documents\TSI\Csharp\VeterinarySystem\VeterinarySystem\obj\Debug\net6.0\VeterinarySystem.AssemblyInfo.cs
+C:\Users\naqas\OneDrive\Documents\TSI\Csharp\VeterinarySystem\VeterinarySystem\obj\Debug\net6.0\VeterinarySystem.csproj.CoreCompileInputs.cache

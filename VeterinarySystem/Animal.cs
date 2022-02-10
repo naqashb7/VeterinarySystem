@@ -11,12 +11,17 @@ namespace VeterinarySystem
 
         public int Age { get; set; }
         public String Name { get; set; }
+        public String Breed { get; set; }
+        public double Weight { get; set; }  
 
 
-        public Animal()
-            : base()
+        public Animal(String Name, int Age, String Breed, double Weight)
+            
         {
-            Name = "El Animal";
+            this.Name = Name;
+            this.Age = Age;
+            this.Weight = Weight;
+            this.Breed = Breed;
         }
 
 
@@ -24,7 +29,18 @@ namespace VeterinarySystem
 
         public void Sleep(int lengthOfSleep)
         {
-            //code sleep method
+            if(lengthOfSleep.Equals(8))
+            {
+                Console.WriteLine("I am rested");
+            }
+            else if(lengthOfSleep > 8)
+            {
+                Console.WriteLine("Sleep is life");
+            }
+            else
+            {
+                Console.WriteLine("DON'T ANNOY ME I AM TIRED");
+            }
         }
 
 
@@ -33,13 +49,30 @@ namespace VeterinarySystem
         public abstract void Breathe();
         public String Poo()
         {
-            return "The animal has pooed";
+            return "I seem to have soiled myself";
         }
 
 
-        public void Die()
+        public String Die()
         {
-            //add die method
+            if (Age > 50)
+            {
+                return "Oh no! I see the light";
+            }
+            else if (Age < 50 && Age > 10)
+            {
+                return "I can still travel the world";
+            }
+            else
+            {
+                return "Gaa gaa goo gaa";
+            }
+
+        }
+
+        public void AnimalSound()
+        {
+
         }
     }
 }
